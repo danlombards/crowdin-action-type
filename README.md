@@ -44,4 +44,4 @@ Here is an example step in an action file which uses this package:
 
 ## Making Changes
 
-Any PR that is submitted to make changes to the action code (within `src`) must also include the distribution build. You can generate the distribution build by running `npm run package`, which will bundle all of the code into a single file and save it as `/dist/index.js`. The actions runner relies on this file to avoid having to install dependencies.
+Any PR that is submitted to make changes to the action code (within `src`) must also include the distribution build. You can generate the distribution build by running `npm run package`, which will bundle all of the code into a single file and save it as `/dist/index.js`. The actions runner relies on this file to avoid having to install dependencies!
